@@ -1,0 +1,25 @@
+package Conj;
+
+import java.util.Scanner;
+
+
+public class aaaaaaa {
+
+	
+	public static void main(String[] args) {
+     Scanner sc=new Scanner(System.in);
+     int a=sc.nextInt();System.out.print("");
+     int b=sc.nextInt();
+     
+     if(a<10) {
+    	 System.out.println("A menor que 10");
+    	 if(a+b!=20) {
+    		 System.out.println("A e B diferente de 20");
+    	 }
+     }else {
+    	 if(a+b!=20) {
+    		 System.out.println("A e B diferente de 20");
+    	 } 
+     }
+     
+ }
