@@ -1,0 +1,30 @@
+package Conj;
+
+import java.util.Scanner;
+
+
+public class aaaaaaa {
+
+	
+	public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      int a,b;
+     a=sc.nextInt();System.out.print("");
+     b=sc.nextInt();
+     
+     if(a>10 || a+b==20) {
+    	 System.out.print("Numeros validos"); 
+     }else {
+    	 if(a==b) {
+    		 System.out.println("A==B");
+    	 }else if(a != 10 && b!=10) {
+    		 System.out.println("A E B DIFERENTE DE 10");
+    	 }else if(a<10) {
+    		 System.out.println("A<10");
+    	 }else {
+    		 System.out.println("NUMEROS INVALIDOS");
+    	 }
+     }
+
+	}
+}
