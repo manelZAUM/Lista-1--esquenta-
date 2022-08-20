@@ -8,12 +8,11 @@ public class aaaaaaa {
 	
 	public static void main(String[] args) {
       Scanner sc=new Scanner(System.in);
-      int a,b;
-     a=sc.nextInt();System.out.print("");
-     b=sc.nextInt();
+     int a=sc.nextInt();System.out.print("");
+     int b=sc.nextInt();
      
      if(a>10 || a+b==20) {
-    	 System.out.print("Numeros validos"); 
+    	 System.out.print("Numeros válidos"); 
      }else {
     	 if(a==b) {
     		 System.out.println("A==B");
@@ -22,7 +21,7 @@ public class aaaaaaa {
     	 }else if(a<10) {
     		 System.out.println("A<10");
     	 }else {
-    		 System.out.println("NUMEROS INVALIDOS");
+    		 System.out.println("Numeros Invalidos");
     	 }
      }
 
